@@ -1,4 +1,4 @@
-interface Persona{
+class Persona{
     Nombre:string;
     Apellido:string;
     Acercade:string;
@@ -10,20 +10,20 @@ let portafolio:Persona={
     Nombre:"",
     Apellido:"",
     Acercade:"",
-    Titulos:["",""],
+    Titulos:"",
 }
-function GetNombre(nombre:string) {
-    const nombre1 = document.getElementById("Nombre");
-    nombre1.textContent=nombre;
+function GetNombre():string {
+    return this.Nombre
+    
 }
 
-function GetApellido(apellido:string) {
-    const a = document.getElementById("Apellido");
-    a.textContent=apellido;
-    return portafolio.Apellido=apellido;
+function GetApellido():string {
+    return this.Apellido
 }
-function GetAcercade(acercade:string) {
-    const a = document.getElementById("text-acercade");
-    a.textContent=acercade;
-    return portafolio.Acercade=acercade;
+function GetAcercade():string {
+    return this.Acercade
+}
+
+function GetTitulos():string{
+    return this.Titulos
 }
