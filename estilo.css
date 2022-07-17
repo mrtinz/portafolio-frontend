@@ -1,7 +1,46 @@
 
+@import url("https://fonts.googleapis.com/css2?family=Cute+Font:400");
+:root
+{ --black: rgba(0,0,0,1);
+--font-size-m: 24px;
+--font-family-cute_font: "Cute Font";
 
-.info { color: black; font-size: large;}
+}
 
+.desktop-bg{
+    background-color: white;
+    overflow-x: hidden;
+    position: relative;
+}
+.info { color: black; font-size: large;
+position: relative;}
+
+.title{
+    
+    color: var(black);
+    font-family: var(--font-family-cute_font);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    letter-spacing: 0;
+    margin-top: -1px;
+    min-width: 115px;
+}
+
+.logo{
+    height: 93px;
+    min-width: 239px;
+    object-fit: cover;
+}
+
+.framed {
+    align-items: flex-start;
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+    height: min-content;
+    padding: 10px;
+    width: min-content;
+}
 .frame1
 {
     background-color: #c4dfbb;
@@ -11,3 +50,64 @@
     top:-10px;
     width: 1484px;
 }
+.frame2{
+    height: 113px;
+    left: 0px;
+    position:absolute;
+    top: 4px;
+    width: 259px;
+
+}
+
+.frame3{
+    align-items: flex-start;
+    display: flex;
+    gap: 10px;
+    height: min-content;
+    padding: 10px;
+    width: min-content;
+}
+
+.frame4{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 120px;
+    left: 260px;
+    padding: 10px;
+    position: absolute;
+    top: 49px;
+
+}
+
+.banner {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    border: 3px solid #73AD21;
+  }
+
+  #Nombre{
+    line-height: 200px;
+    height: 200px;
+    text-align: center;
+  }
+  #Apellido{ line-height: 200px;
+    height: 200px;
+    text-align: center;
+
+  }
+  #Acercade{ line-height: 200px;
+    height: 200px;
+    border: 3px solid green;
+    text-align: center;
+
+  }
+  #Titulos{ line-height: 200px;
+    height: 200px;
+    border: 3px solid green;
+    text-align: center;
+
+  }
