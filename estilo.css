@@ -1,71 +1,45 @@
 
-@import url("https://fonts.googleapis.com/css2?family=Cute+Font:400");
-:root
-{ --black: rgba(0,0,0,1);
---font-size-m: 24px;
---font-family-cute_font: "Cute Font";
-
-}
-
-.desktop-bg{
-    background-color: white;
-    overflow-x: hidden;
-    position: relative;
-}
-.info { color: black; font-size: large;
-position: relative;}
-
-body, html {
-    height: 100%;
-}
 
 
 
-/* The hero image */
-.banner-img {
-  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: url("https://assets.muralswallpaper.com/product-banner/VA0001NE30W.jpg");
-
-  /* Set a specific height */
-  height: 50%;
-
-  /* Position and center the image to scale nicely on all screens */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
 
 
-#avatar {
-    position: absolute; 
-    top: 250px;
-    left: 100px;
-    /* This image is 687 wide by 1024 tall, similar to your aspect ratio */
-    background-image: url('https://64.media.tumblr.com/83365ea6f54372c68d404c290d86c6ec/b6e1347e0295285d-a8/s540x810/0bd76898b0e7c1784dc62ca6254be66602f01916.jpg');
+.info { color: black;
     
-    /* make a square container */
-    width: 200px;
-    height:200px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        letter-spacing: 0px;
+        word-spacing: 0px;
+        color: #000000;
+        font-weight: normal;
+        text-decoration: none;
+        font-style: normal;
+        font-variant: normal;
+        text-transform: none;
+        position: relative;
+ }
+ 
 
-    /* fill the container, preserving aspect ratio, and cropping to fit */
-    background-size: cover;
 
-    /* center the image vertically and horizontally */
-    background-position:top right 2px;
-   
-
-    /* round the edges to a circle with border radius 1/2 container size */
-    border-radius: 50%;
-}
-  
+  .banner-img {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). 
+    This will make the text easier to read */
+    background-image: url("https://assets.muralswallpaper.com/product-banner/VA0001NE30W.jpg");
+    /* Set a specific height */
+    height: 50%;
+    /* Position and center the image to scale nicely on all screens */
+    background-size:cover;
+    background-size:100%;
+    background-position: center;
+    position: relative;
+  }
 
 
 
 .title{
     
     color: var(black);
-    font-size: 22;
+    font-size: 22px;
     font-weight: 400px;
     letter-spacing: 0;
     margin-top: -1px;
@@ -91,10 +65,12 @@ body, html {
 {
     background-color: #c4dfbb;
     height: 142px;
-    left: -10px;
-    position:absolute;
-    top:-10px;
-    width: 1484px;
+top:-15;
+left: -15;
+position:absolute;
+width:100%; 
+
+
 }
 .frame2{
     height: 113px;
@@ -114,44 +90,105 @@ body, html {
     width: min-content;
 }
 
+
 .frame4{
     align-items: flex-start;
     display: flex;
     flex-direction: column;
+
+  
     gap: 10px;
     height: 120px;
     left: 260px;
     padding: 10px;
     position: absolute;
-    top: 49px;}
-   
-    * {
-        box-sizing: border-box;}
-   
-.button {
-        position: absolute;
-        top: 20px;
-        right: 100px;
+    top: 60px;}
+
+
+ .title{
+    
+        font-family: "Lucida Console", "Courier New", monospace;
+        font-size: 16px;
+        position: relative;
         
-        background-color:#ffffff;
-        color: #fff;
-     border: solid #b9e9aa;
-        border-radius:10px; 
-        padding:10px;
-        min-height:30px; 
-        min-width: 120px;
-      }
- .button:hover {
-        background-color:#aae4aa;
-        transition: 0.7s;
-       
     }
+  
+
+    #avatar {
+        position: absolute; 
+        top: 250px;
+        left: 100px;
+        /* This image is 687 wide by 1024 tall, similar to your aspect ratio */
+        background-image: url('https://64.media.tumblr.com/83365ea6f54372c68d404c290d86c6ec/b6e1347e0295285d-a8/s540x810/0bd76898b0e7c1784dc62ca6254be66602f01916.jpg');
+        
+        /* make a square container */
+        width: 200px;
+        height:200px;
+    
+        /* fill the container, preserving aspect ratio, and cropping to fit */
+        background-size: cover;
+    
+        /* center the image vertically and horizontally */
+        background-position:top right 2px;
+       
+    
+        /* round the edges to a circle with border radius 1/2 container size */
+        border-radius: 50%;
+    }
+      
 
 
-.banner {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    width: 300px;
-    border: 3px solid #73AD21;
+    *{
+       box-sizing: border-box;}
+   
+        .button {
+            position: absolute;
+        
+            top: 20px;
+            right: 100px;
+            font-family: "Lucida Console", "Courier New", monospace;
+            font-size: 14px;
+            background-color:#ffffff;
+            color: #fff;
+         border: solid #b9e9aa;
+            border-radius:10px; 
+            padding:10px;
+            min-height:30px; 
+            min-width: 120px;
+          }
+     .button:hover {
+            background-color:#aae4aa;
+            transition: 0.7s;
+           
+        }
+    
+    
+        .banner {
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            width: 300px;
+            border: 3px solid #73AD21;
+          }
+  
+    
+  #nombre {
+           
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    position: relative;
+    top:160px;
+    left: 30px;
   }
+#apellido
+{
+
+font-size: 20px;
+text-transform: uppercase;
+margin-bottom: 20px;
+position: relative;
+top: 118px;
+left:118px;
+}
+
