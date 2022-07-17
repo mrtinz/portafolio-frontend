@@ -1,3 +1,13 @@
 
 
 .info { color: black; font-size: large;}
+
+.frame1
+{
+    background-color: #c4dfbb;
+    height: 142px;
+    left: -10px;
+    position:absolute;
+    top:-10px;
+    width: 1484px;
+}
