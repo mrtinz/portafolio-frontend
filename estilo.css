@@ -20,8 +20,7 @@
  }
  
 
-
-  .banner-img {
+ .banner-img {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). 
     This will make the text easier to read */
     background-image: url("https://assets.muralswallpaper.com/product-banner/VA0001NE30W.jpg");
@@ -36,7 +35,7 @@
 
 
 
-.title{
+  .title{
     
     color: var(black);
     font-size: 22px;
@@ -46,12 +45,12 @@
     min-width: 115px;
 }
 
+
 .logo{
     height: 93px;
     min-width: 239px;
     object-fit: cover;
 }
-
 .framed {
     align-items: flex-start;
     display:flex;
@@ -61,17 +60,19 @@
     padding: 10px;
     width: min-content;
 }
+
 .frame1
 {
     background-color: #c4dfbb;
-    height: 142px;
-top:-15;
-left: -15;
-position:absolute;
-width:100%; 
-
-
+    height: 20%;
+    top:1%;
+    left: 0%;
+    width: 1365px;
+    position:absolute;
+    opacity: 0.7;
 }
+
+
 .frame2{
     height: 113px;
     left: 0px;
@@ -90,7 +91,6 @@ width:100%;
     width: min-content;
 }
 
-
 .frame4{
     align-items: flex-start;
     display: flex;
@@ -104,8 +104,7 @@ width:100%;
     position: absolute;
     top: 60px;}
 
-
- .title{
+    .title{
     
         font-family: "Lucida Console", "Courier New", monospace;
         font-size: 16px;
@@ -114,6 +113,9 @@ width:100%;
     }
   
 
+ 
+
+   
     #avatar {
         position: absolute; 
         top: 250px;
@@ -135,60 +137,49 @@ width:100%;
         /* round the edges to a circle with border radius 1/2 container size */
         border-radius: 50%;
     }
-      
 
 
     *{
-       box-sizing: border-box;}
-   
-        .button {
-            position: absolute;
+        box-sizing: border-box;}
+    
+         .button {
+             position: absolute;
+         
+             top: 20px;
+             right: 100px;
+             font-family: "Lucida Console", "Courier New", monospace;
+             font-size: 14px;
+             background-color:#ffffff;
+             color: #fff;
+          border: solid #b9e9aa;
+             border-radius:10px; 
+             padding:10px;
+             min-height:30px; 
+             min-width: 120px;
+           }
+      .button:hover {
+             background-color:#aae4aa;
+             transition: 0.7s;
+            
+         }
+     
+    
+         #nombre {
+           
+            font-size: 20px;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            position: relative;
+          
+          }
+        #apellido
+        {
         
-            top: 20px;
-            right: 100px;
-            font-family: "Lucida Console", "Courier New", monospace;
-            font-size: 14px;
-            background-color:#ffffff;
-            color: #fff;
-         border: solid #b9e9aa;
-            border-radius:10px; 
-            padding:10px;
-            min-height:30px; 
-            min-width: 120px;
-          }
-     .button:hover {
-            background-color:#aae4aa;
-            transition: 0.7s;
-           
+        font-size: 20px;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        position: relative;
+      
         }
-    
-    
-        .banner {
-            position: fixed;
-            bottom: 0;
-            right: 0;
-            width: 300px;
-            border: 3px solid #73AD21;
-          }
-  
-    
-  #nombre {
-           
-    font-size: 20px;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-    position: relative;
-    top:160px;
-    left: 30px;
-  }
-#apellido
-{
-
-font-size: 20px;
-text-transform: uppercase;
-margin-bottom: 20px;
-position: relative;
-top: 118px;
-left:118px;
-}
-
+        
+      
