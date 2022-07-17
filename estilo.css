@@ -15,12 +15,67 @@
 .info { color: black; font-size: large;
 position: relative;}
 
+body, html {
+    height: 100%;
+}
+
+
+
+/* The hero image */
+.banner-img {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: url("https://assets.muralswallpaper.com/product-banner/VA0001NE30W.jpg");
+
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+#avatar {
+    position: absolute; 
+    top: 250px;
+    left: 100px;
+    /* This image is 687 wide by 1024 tall, similar to your aspect ratio */
+    background-image: url('https://64.media.tumblr.com/83365ea6f54372c68d404c290d86c6ec/b6e1347e0295285d-a8/s540x810/0bd76898b0e7c1784dc62ca6254be66602f01916.jpg');
+    
+    /* make a square container */
+    width: 200px;
+    height:200px;
+
+    /* fill the container, preserving aspect ratio, and cropping to fit */
+    background-size: cover;
+
+    /* center the image vertically and horizontally */
+    background-position:top right 10px;
+   
+
+    /* round the edges to a circle with border radius 1/2 container size */
+    border-radius: 50%;
+}
+  
+
+
+
 .title{
     
     color: var(black);
-    font-family: var(--font-family-cute_font);
-    font-size: var(--font-size-m);
-    font-weight: 400;
+    font-size: 22;
+    font-weight: 400px;
     letter-spacing: 0;
     margin-top: -1px;
     min-width: 115px;
@@ -87,27 +142,4 @@ position: relative;}
     right: 0;
     width: 300px;
     border: 3px solid #73AD21;
-  }
-
-  #Nombre{
-    line-height: 200px;
-    height: 200px;
-    text-align: center;
-  }
-  #Apellido{ line-height: 200px;
-    height: 200px;
-    text-align: center;
-
-  }
-  #Acercade{ line-height: 200px;
-    height: 200px;
-    border: 3px solid green;
-    text-align: center;
-
-  }
-  #Titulos{ line-height: 200px;
-    height: 200px;
-    border: 3px solid green;
-    text-align: center;
-
   }
