@@ -114,7 +114,33 @@
   
 
  
+    *{
+        box-sizing: border-box;}
+    
+         .button {
+             position: relative;
+             top: -185px;
+    left: 1200px;
 
+         width: 20px;
+             
+             font-family: "Lucida Console", "Courier New", monospace;
+             background-color: #c4dfbb;
+             font-size: 14px;
+             opacity: 0.8;
+             color: #fff;
+          border: solid #b9e9aa;
+             border-radius:10px; 
+             padding:10px;
+             min-height:30px; 
+             min-width: 120px;
+           }
+      .button:hover {
+             background-color:#aae4aa;
+             transition: 0.7s;
+            
+         }
+     
    
     #avatar {
         position: absolute; 
@@ -139,30 +165,7 @@
     }
 
 
-    *{
-        box-sizing: border-box;}
-    
-         .button {
-             position: absolute;
-         
-             top: 20px;
-             right: 100px;
-             font-family: "Lucida Console", "Courier New", monospace;
-             font-size: 14px;
-             background-color:#ffffff;
-             color: #fff;
-          border: solid #b9e9aa;
-             border-radius:10px; 
-             padding:10px;
-             min-height:30px; 
-             min-width: 120px;
-           }
-      .button:hover {
-             background-color:#aae4aa;
-             transition: 0.7s;
-            
-         }
-     
+  
     
          #nombre {
            
