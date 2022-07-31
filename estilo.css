@@ -185,22 +185,18 @@ body{
             vertical-align: middle;
         font-size: 20px;
         text-transform: uppercase;
-       
         position: relative;
-      
         }
 
 
     h3{
         margin-left: 10%;
         font-family: "Lucida Console", "Courier New", monospace;
-
     }
     h4{
-        margin-left: 10%;
-       
+        margin-left: 10%; 
         font-family: "Lucida Console", "Courier New", monospace;
-
+       text-decoration:underline;
     }
         #acercade
         {
@@ -252,5 +248,10 @@ body{
             top: -383px;
             left: 1220px;
             height: 25px;
-            width:25px;
+            width:25px;            
          }
+         
+         .image1{ width: 200px;
+        display: inline-block;}
+         .image2{width: 200px;}
+         .image3{width: 200px;}
