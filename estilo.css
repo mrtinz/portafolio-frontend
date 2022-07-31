@@ -251,6 +251,9 @@ body{
             width:25px;            
          }
          
+         .graph{
+            margin-left: 20%;
+         }
          .image1{ width: 200px;
         display: inline-block;}
          .image2{width: 200px;}
