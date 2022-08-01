@@ -6,7 +6,8 @@ body{
 
 
 .info { color: black;
-        font-family: 'Montserrat', sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-variant: small-caps;
         font-size: 20px;
         letter-spacing: 0px;
         word-spacing: 0px;
@@ -169,22 +170,35 @@ body{
 
 
   
+    #quesoy {
+        margin-top: -60px;
+        position: relative;
+        font-size: 20px;
+        text-transform: uppercase;
+      margin-left: 22%;
+      }
+
+
+
     
          #nombre {
+            margin-top: -40px;
+            margin-left: 22%;
+
             display: inline-block;
             vertical-align: middle;
             font-size: 20px;
-            text-transform: uppercase;
-          margin-left: 20%;
+            
             position: relative;
          
           }
         #apellido
-        {
+        {            margin-top: -40px;
+
             display: inline-block;
             vertical-align: middle;
         font-size: 20px;
-        text-transform: uppercase;
+      
         position: relative;
         }
 
@@ -193,10 +207,10 @@ body{
         margin-left: 10%;
         font-family: "Lucida Console", "Courier New", monospace;
     }
-    h4{
-        margin-left: 10%; 
+    h4{ text-align: left;
+        margin-right: 30%;
         font-family: "Lucida Console", "Courier New", monospace;
-       text-decoration:underline;
+       
     }
         #acercade
         {
@@ -216,7 +230,7 @@ body{
         #titulos
         {
           
-        font-size: 30px;
+        font-size: 20px;
         margin-bottom: 20px;
         position: relative;
         margin-left: 20%;
@@ -232,6 +246,44 @@ body{
         }
 
        
+        #experiencia
+        {
+          
+        font-size: 20px;
+        margin-bottom: 20px;
+        position: relative;
+        margin-left: 20%;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        text-transform: lowercase;
+        font-variant: small-caps;
+        padding: 10px;
+        color: #000000;
+        background-color:  #dff0dd;
+        width: 500px;
+        padding: 10px;
+        outline-style: dotted;
+        }
+
+
+        #proyectos
+
+        {
+          
+        font-size: 20px;
+        margin-bottom: 20px;
+        position: relative;
+        margin-left: 20%;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        text-transform: lowercase;
+        font-variant: small-caps;
+        padding: 10px;
+        color: #000000;
+        background-color:  #dff0dd;
+        width: 500px;
+        padding: 10px;
+        outline-style: dotted;
+        }
+
         img {
             max-width: 100%;
             max-height: 100%;
@@ -251,10 +303,20 @@ body{
             width:25px;            
          }
          
-         .graph{
+         #ap{ float:right;
+            margin-top: -63%;
+            margin-right: 19%;
+        position: relative;
+    
+
+}
+         .graph{text-align: center;
             margin-left: 20%;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-variant: small-caps;
          }
          .image1{ width: 200px;
         display: inline-block;}
          .image2{width: 200px;}
          .image3{width: 200px;}
+    
