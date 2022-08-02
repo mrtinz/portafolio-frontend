@@ -1,1 +1,412 @@
-/* You can add global styles to this file, and also import other style files */
+
+
+body{
+  background-color: rgb(255, 255, 255)
+}
+
+
+.info { color: rgb(0, 0, 0);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-variant: small-caps;
+      font-size: 20px;
+      letter-spacing: 0px;
+      word-spacing: 0px;
+      color: #1b1919;
+      font-weight: normal;
+      text-decoration: none;
+      font-style: normal;
+      font-variant: normal;
+      text-transform: none;
+      position: relative;
+}
+
+
+.banner-img {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg).
+  This will make the text easier to read */
+  background-image: url("https://assets.muralswallpaper.com/product-banner/VA0001NE30W.jpg");
+  /* Set a specific height */
+  height: 50%;
+  /* Position and center the image to scale nicely on all screens */
+  background-size:cover;
+  background-size:100%;
+  background-position: center;
+  position: relative;
+
+}
+
+
+
+.title{
+
+  color: var(black);
+  font-size: 22px;
+  font-weight: 400px;
+  letter-spacing: 0;
+  margin-top: -1px;
+  min-width: 100px;
+}
+
+
+.logo{
+  height: 95px;
+  min-width: 250px;
+  object-fit: cover;
+}
+.framed {
+  align-items: flex-start;
+  display:flex;
+  flex-direction: column;
+  gap: 10px;
+  height: min-content;
+  padding: 10px;
+  width: min-content;
+}
+
+.frame1
+{
+  background-color: #c4dfbb;
+  height: 20%;
+  top:1%;
+  left: 0%;
+  width: 100%;
+  position:absolute;
+  opacity: 0.7;
+}
+
+
+.frame2{
+  height: 113px;
+  left: 0px;
+  position:absolute;
+  top: 15px;
+  width: 259px;
+
+}
+
+.frame3{
+  align-items: flex-start;
+  display: flex;
+  gap: 10px;
+  height: min-content;
+  padding: 10px;
+  width: min-content;
+}
+
+.frame4{
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+
+
+  gap: 10px;
+  height: 120px;
+  left: 230px;
+  padding: 10px;
+  position: absolute;
+  top: 60px;}
+
+  .title{
+
+      font-family: "Lucida Console", "Courier New", monospace;
+      font-size: 16px;
+      position: relative;
+
+  }
+
+
+
+  *{
+      box-sizing: border-box;}
+
+       .button {
+           position: relative;
+           top: -180px;
+  left: 1200px;
+
+       width: 20px;
+
+           font-family: "Lucida Console", "Courier New", monospace;
+           font-weight: bold;
+           background-color: #c4dfbb;
+           font-size: 14px;
+           opacity: 0.8;
+           color: #fff;
+        border: solid #b9e9aa;
+           border-radius:10px;
+           padding:10px;
+           min-height:30px;
+           min-width: 120px;
+         }
+    .button:hover {
+           background-color:#aae4aa;
+           transition: 0.7s;
+
+       }
+
+
+  #avatar {
+      position: absolute;
+      top: 250px;
+      left: 100px;
+      /* This image is 687 wide by 1024 tall, similar to your aspect ratio */
+      background-image: url('https://64.media.tumblr.com/83365ea6f54372c68d404c290d86c6ec/b6e1347e0295285d-a8/s540x810/0bd76898b0e7c1784dc62ca6254be66602f01916.jpg');
+
+      /* make a square container */
+      width: 200px;
+      height:200px;
+
+      /* fill the container, preserving aspect ratio, and cropping to fit */
+      background-size: cover;
+
+      /* center the image vertically and horizontally */
+      background-position:top right 2px;
+
+
+      /* round the edges to a circle with border radius 1/2 container size */
+      border-radius: 50%;
+      border: 5px solid #a5c4aa;
+  }
+
+
+
+  #quesoy {
+      margin-top: -60px;
+      position: relative;
+      font-size: 20px;
+      text-transform: uppercase;
+    margin-left: 22%;
+    }
+
+
+
+
+       #nombre {
+          margin-top: -40px;
+          margin-left: 22%;
+
+          display: inline-block;
+          vertical-align: middle;
+          font-size: 20px;
+
+          position: relative;
+
+        }
+      #apellido
+      {            margin-top: -40px;
+
+          display: inline-block;
+          vertical-align: middle;
+      font-size: 20px;
+
+      position: relative;
+      }
+
+
+  h3{
+      margin-left: 10%;
+      font-family: "Lucida Console", "Courier New", monospace;
+  }
+  h4{ text-align: left;
+      margin-left: 10%;
+margin-bottom: -2%;
+
+      font-family: "Lucida Console", "Courier New", monospace;
+
+  }
+      #acercade
+      {
+          width: 800px;
+          padding: 10px;
+              font-size: 15px;
+              padding: 10px;
+              margin-bottom: 100px;
+              color: #000000;
+              background-color:  #dff0dd;
+              font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+              text-transform: lowercase;
+              font-variant: small-caps;
+              outline-style: dotted;
+              margin-left: 20%;
+              outline-color: #a18a83;
+
+      }
+      #titulos
+      {
+
+      font-size: 20px;
+      margin-bottom: 50px;
+      position: relative;
+      margin-left: 20%;
+      font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+      text-transform: lowercase;
+      font-variant: small-caps;
+      padding: 10px;
+      color: #000000;
+      background-color:  #dff0dd;
+      width: 500px;
+      padding: 10px;
+      outline-style: dotted;
+      outline-color: #a18a83;
+      }
+
+
+      #experiencia
+      {
+
+      font-size: 20px;
+      margin-bottom: 20px;
+      position: relative;
+      margin-left: 20%;
+      font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+      text-transform: lowercase;
+      font-variant: small-caps;
+      padding: 10px;
+      color: #000000;
+      background-color:  #dff0dd;
+      width: 500px;
+      padding: 10px;
+      outline-style: dotted;
+      outline-color: #a18a83;
+      }
+
+
+      #tituloP{
+          float: right;
+          margin-top: -53%;
+          margin-right: 25%;
+      }
+
+      #proyectos {
+          float: right;
+       margin-top: -48%;
+       margin-right: 2%;
+      font-size: 20px;
+      margin-bottom: 10px;
+      position: relative;
+
+      font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+      text-transform: lowercase;
+      font-variant: small-caps;
+      padding: 10px;
+      color: #000000;
+      background-color:  #dff0dd;
+      width: 450px;
+      padding: 10px;
+      outline-style: dotted;
+      outline-color: #a18a83;
+      }
+
+      img {
+          max-width: 100%;
+          max-height: 100%;
+         }
+         .icon1{
+          position: relative;
+          top: -358px;
+          left: 1185px;
+          height: 25px;
+          width:25px;
+       }    .icon2{
+          position: relative;
+
+          top: -383px;
+          left: 1220px;
+          height: 25px;
+          width:25px;
+       }
+
+       #ap{ float:right;
+          margin-top: -63%;
+          margin-right: 19%;
+      position: relative;
+
+
+}
+
+
+
+
+
+  /* barras de progreso */
+
+   .wrapper {
+
+          width: 400px;
+          font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-variant: small-caps;
+          margin-left: 20%;
+
+      }
+
+      .skill {
+          margin-bottom: 35px;
+          position: relative;
+          overflow-x:hidden;
+      }
+
+      .skill > p {
+          font-size: 18px;
+          font-weight: 700;
+          color: #1a1716;
+          margin: 0;
+      }
+
+      .skill:before {
+          width: 100%;
+          height: 10px;
+          content: "";
+          display: block;
+          position: absolute;
+          background: #959595;
+          bottom: 0;
+      }
+
+      .skill-bar {
+          width: 100%;
+          height: 10px;
+          background: #9bbb98 ;
+          display: block;
+          position: relative;
+      }
+
+      .skill-bar span {
+          position: absolute;
+
+          border-top: 5px solid;
+
+          background: #9bbb98 ;
+          top: -30px;
+          padding: 0;
+          font-size: 18px;
+          padding: 3px 0;
+          font-weight: 500;
+      }
+
+      .skill-bar {
+          position: relative;
+      }
+
+      .skill1 .skill-count1 {
+          right: 0;
+      }
+
+      .skill1 {
+          width: 95%;
+      }
+
+      .skill2 {
+          width: 85%;
+      }
+
+      .skill2 .skill-count2 {
+          right: 0;
+      }
+
+      .skill3{
+         width: 75%;
+      }
+
+      .skill3 .skill-count3 {
+          right: 0;
+      }
