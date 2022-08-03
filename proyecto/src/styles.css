@@ -5,16 +5,18 @@ body{
 }
 
 #banner-img {
-  background-image:url("https://assets.muralswallpaper.com/product-banner/VA0001NE30W.jpg");
-  /* Set a specific height */
-  height: 50%;
-  /* Position and center the image to scale nicely on all screens */
-  background-size:cover;
-  background-size:100%;
-  background-position: center;
-  position: absolute;
+
+  height: 350px;
+
 }
 
+.ban{
+
+    height:100%;
+    width: 100%;
+    position: center;
+object-fit:cover
+}
 
 h3{
   font-size:x-large;
@@ -22,11 +24,11 @@ h3{
   font-family: "Lucida Console", "Courier New", monospace;
 
 }
-h4{ text-align: left;
+h4{
+   text-align: left;
   font-size: large;
   margin-left: 10%;
 margin-bottom: -2%;
-
   font-family: "Lucida Console", "Courier New", monospace;
 }
 
@@ -237,8 +239,7 @@ margin-left: 23%;
 
 
       p{
-        margin-left: 50%;
-        font-size: 20px;
+      margin-left: 50%;
       margin-bottom: 50px;
       position: relative;
       margin-left: 20%;
@@ -257,9 +258,7 @@ margin-left: 23%;
 
 #acercade
       {
-
-        width: 50%;
-        border: 1px solid black;
+margin-top: 20%;
 
       }
       #titulos
@@ -307,41 +306,42 @@ margin-left: 23%;
           margin-top: -53%;
           margin-right: 25%;
       }
+      #proyectos
+      {
 
-      #proyectos {
-
-        float: right;
-       margin-right: 2%;
       font-size: 20px;
-      margin-bottom: 10px;
+      margin-bottom: 20px;
       position: relative;
+      margin-left: 20%;
       font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
       text-transform: lowercase;
       font-variant: small-caps;
       padding: 10px;
       color: #000000;
       background-color:  #dff0dd;
-      width: 450px;
+      width: 500px;
       padding: 10px;
       outline-style: dotted;
       outline-color: #a18a83;
       }
 
       img {
-          max-width: 100%;
-          max-height: 100%;
-         }
+        max-width:100%;
+    height:fit-content;
+
+      object-fit:contain ;}
+
          .icon1{
-          position: relative;
-          top: -358px;
-          left: 1185px;
+
+
           height: 25px;
           width:25px;
-       }    .icon2{
-          position: relative;
 
-          top: -383px;
-          left: 1220px;
+       }    .icon2{
+
+
+
+
           height: 25px;
           width:25px;
        }
