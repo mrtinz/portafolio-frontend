@@ -12,33 +12,23 @@ body{
   background-size:cover;
   background-size:100%;
   background-position: center;
-
-
+  position: absolute;
 }
 
 
 h3{
+  font-size:x-large;
   margin-left: 10%;
   font-family: "Lucida Console", "Courier New", monospace;
 
 }
 h4{ text-align: left;
+  font-size: large;
   margin-left: 10%;
 margin-bottom: -2%;
 
   font-family: "Lucida Console", "Courier New", monospace;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -79,10 +69,7 @@ margin-bottom: -2%;
   font-variant: small-caps;
 
       color: #1b1919;
-
-
 }
-
 
 .title{
 
@@ -191,7 +178,7 @@ margin-bottom: -2%;
 
 
   #avatar {
-      position: absolute;
+     position: absolute;
       top: 250px;
       left: 100px;
       /* This image is 687 wide by 1024 tall, similar to your aspect ratio */
@@ -216,53 +203,63 @@ margin-bottom: -2%;
 
 
   #quesoy {
-     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-      margin-top: 20%;
 
-      font-size: 20px;
-      text-transform: uppercase;
-    margin-left: 23%;
+  margin-top: 20%;
+  font-size: 20px;
+  margin-left: 25%;
+
     }
 
   #nombre {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+margin-left: 23%;
 
-          margin-left: 22%;
+    vertical-align: middle;
+    font-size: 20px;
 
-          display: inline-block;
-          vertical-align: middle;
-          font-size: 20px;
+    position: relative;
 
 
 
         }
       #apellido
-      {            
-          display: inline-block;
-          vertical-align: middle;
-      font-size: 20px;
+      {
+
+        margin-left: 26%;
+
+
+        vertical-align: middle;
+        font-size: 20px;
+
+        position: relative;
 
 
       }
 
 
+      p{
+        margin-left: 50%;
+        font-size: 20px;
+      margin-bottom: 50px;
+      position: relative;
+      margin-left: 20%;
+      font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+      text-transform: lowercase;
+      font-variant: small-caps;
+      padding: 10px;
+      color: #000000;
+      background-color:  #dff0dd;
+      width: 500px;
+      padding: 10px;
+      outline-style: dotted;
+      outline-color: #a18a83;
+      }
 
 
 #acercade
       {
-          width: 800px;
-          padding: 10px;
-              font-size: 15px;
-              padding: 10px;
-              margin-bottom: 100px;
-              color: #000000;
-              background-color:  #dff0dd;
-              font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-              text-transform: lowercase;
-              font-variant: small-caps;
-              outline-style: dotted;
-              margin-left: 20%;
-              outline-color: #a18a83;
+
+        width: 50%;
+        border: 1px solid black;
 
       }
       #titulos
