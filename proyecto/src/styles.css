@@ -4,35 +4,84 @@ body{
   background-color: rgb(255, 255, 255)
 }
 
-
-.info { color: rgb(0, 0, 0);
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-variant: small-caps;
-      font-size: 20px;
-      letter-spacing: 0px;
-      word-spacing: 0px;
-      color: #1b1919;
-      font-weight: normal;
-      text-decoration: none;
-      font-style: normal;
-      font-variant: normal;
-      text-transform: none;
-      position: relative;
-}
-
-
-.banner-img {
-  background-image: url("https://64.media.tumblr.com/8da03c06fead948c56573cad772c3d3c/926902c472840401-2f/s540x810/79cbe65ce849a57893812f1c0b655c67e164f5ef.jpg");
+#banner-img {
+  background-image:url("https://assets.muralswallpaper.com/product-banner/VA0001NE30W.jpg");
   /* Set a specific height */
   height: 50%;
   /* Position and center the image to scale nicely on all screens */
   background-size:cover;
   background-size:100%;
   background-position: center;
-  position: relative;
+
 
 }
 
+
+h3{
+  margin-left: 10%;
+  font-family: "Lucida Console", "Courier New", monospace;
+
+}
+h4{ text-align: left;
+  margin-left: 10%;
+margin-bottom: -2%;
+
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.info { color: rgb(0, 0, 0);
+
+
+  font-variant: small-caps;
+
+      color: #1b1919;
+
+
+}
+
+.info2 { color: rgb(0, 0, 0);
+
+
+  font-variant: small-caps;
+
+      color: #1b1919;
+
+
+}
+
+.info3 { color: rgb(0, 0, 0);
+
+
+  font-variant: small-caps;
+
+      color: #1b1919;
+
+
+}
+
+
+.info4 {
+
+
+  font-variant: small-caps;
+
+      color: #1b1919;
+
+
+}
 
 
 .title{
@@ -117,13 +166,11 @@ body{
   *{
       box-sizing: border-box;}
 
-       .button {
+       a.button {
            position: relative;
-           top: -180px;
-  left: 1200px;
-
-       width: 20px;
-
+         margin-left: 69%;
+  top: 150px;
+       width: -20px;
            font-family: "Lucida Console", "Courier New", monospace;
            font-weight: bold;
            background-color: #c4dfbb;
@@ -136,11 +183,11 @@ body{
            min-height:30px;
            min-width: 120px;
          }
-    .button:hover {
-           background-color:#aae4aa;
-           transition: 0.7s;
+         a.button:hover {
+          background-color:#aae4aa;
+          transition: 0.7s;
 
-       }
+      }
 
 
   #avatar {
@@ -169,50 +216,39 @@ body{
 
 
   #quesoy {
-      margin-top: -60px;
-      position: relative;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      margin-top: 20%;
+
       font-size: 20px;
       text-transform: uppercase;
-    margin-left: 22%;
+    margin-left: 23%;
     }
 
+  #nombre {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
-
-
-       #nombre {
-          margin-top: -40px;
           margin-left: 22%;
 
           display: inline-block;
           vertical-align: middle;
           font-size: 20px;
 
-          position: relative;
+
 
         }
       #apellido
-      {            margin-top: -40px;
-
+      {            
           display: inline-block;
           vertical-align: middle;
       font-size: 20px;
 
-      position: relative;
+
       }
 
 
-  h3{
-      margin-left: 10%;
-      font-family: "Lucida Console", "Courier New", monospace;
-  }
-  h4{ text-align: left;
-      margin-left: 10%;
-margin-bottom: -2%;
 
-      font-family: "Lucida Console", "Courier New", monospace;
 
-  }
-      #acercade
+#acercade
       {
           width: 800px;
           padding: 10px;
@@ -276,13 +312,12 @@ margin-bottom: -2%;
       }
 
       #proyectos {
-          float: right;
-       margin-top: -48%;
+
+        float: right;
        margin-right: 2%;
       font-size: 20px;
       margin-bottom: 10px;
       position: relative;
-
       font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
       text-transform: lowercase;
       font-variant: small-caps;
