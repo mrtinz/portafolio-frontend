@@ -8,13 +8,17 @@ import { AcercaDeComponent } from './componentes/acerca-de/acerca-de.component';
 import { AptitudesComponent } from './componentes/aptitudes/aptitudes.component';
 import { PorfolioService } from './servicios/porfolio.service';
 import { HttpClientModule } from '@angular/common/http';
+import { IniciarSesionComponent } from './componentes/iniciar-sesion/iniciar-sesion.component';
+import { PortafolioComponent } from './componentes/portafolio/portafolio.component';
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     InfoComponent,
     AcercaDeComponent,
-    AptitudesComponent
+    AptitudesComponent,
+    IniciarSesionComponent,
+    PortafolioComponent
   ],
   imports: [
     BrowserModule,
