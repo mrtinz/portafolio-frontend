@@ -156,9 +156,9 @@ margin-bottom: -2%;
       box-sizing: border-box;}
 
        a.button {
-           position: relative;
-         margin-left: 69%;
-  top: 150px;
+   position: relative;
+ margin-left: 80%;
+  top: -50px;
        width: -20px;
            font-family: "Lucida Console", "Courier New", monospace;
            font-weight: bold;
@@ -206,9 +206,10 @@ margin-bottom: -2%;
 
   #quesoy {
 
-  margin-top: 20%;
+
   font-size: 20px;
   margin-left: 25%;
+  margin-bottom: 5%;
 
     }
 
@@ -258,8 +259,8 @@ margin-left: 23%;
 
 #acercade
       {
-margin-top: 20%;
 
+        position: relative;
       }
       #titulos
       {
@@ -303,7 +304,7 @@ margin-top: 20%;
 
       #tituloP{
           float: right;
-          margin-top: -53%;
+          margin-top: -56%;
           margin-right: 25%;
       }
       #proyectos
@@ -332,22 +333,24 @@ margin-top: 20%;
       object-fit:contain ;}
 
          .icon1{
-
-
+          position: relative;
+          margin-top: -32%;
+          margin-right: 5%;
+          float:right;
           height: 25px;
           width:25px;
 
        }    .icon2{
-
-
-
-
+        position: relative;
+float:right;
+margin-top: -32%;
+margin-right: 8%;
           height: 25px;
           width:25px;
        }
 
        #ap{ float:right;
-          margin-top: -63%;
+        margin-right: -63%;
           margin-right: 19%;
       position: relative;
 
