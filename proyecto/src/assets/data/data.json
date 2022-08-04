@@ -1,17 +1,17 @@
 {
-	"Persona": [
-		{
+	
+		
 			"id": "1",
 			"nombres": "Melina",
 			"apellido": "Martinez",
 			"fecha_nacimiento": "04-05-1994",
-			"nacionalidad": "Argentino",
+			"nacionalidad": "Argentina",
 			"mail": "melmrtinzl@gmail.com",
-			"acerca-de": "Matemático, físico e informático argentino considerado por muchos como el padre de la computación en la Argentina.",
-			"ocupación": "Programador Full Stack",
-			"image_background_header": "https://png.pngtree.com/thumb_back/fw800/background/20190223/ourmid/pngtree-black-shading-red-shard-geometry-banner-background-shadingred-debrisred-glowgeometry-image_80184.jpg",
-			"image_perfil": "https://i2.wp.com/imagenes.milenio.com/E-yJnq9EhkZhWaU7T_2utkyTymQ=/958x596/smart/https://www.milenio.com/uploads/media/2018/10/05/steve-jobs-perdio-vida-consecuencia_0_199_1193_742.jpg?w=640&ssl=1",
+			"acerca-de": "Desde el 2020 me desempeño como artista freelance,desarrollando proyectos creativos con una variedad de clientes, ademas de mi formación en artes, siempre estuve interesada en la programación y las redes, realicé cursos de community manager ymarketing digital y completé la primera etapa de argentina programa.",
+			"ocupacion": "Full stack jr.",
+			"image_background_header": "https://assets.muralswallpaper.com/product-banner/VA0001NE30W.jpg",
+			"image_perfil": "https://64.media.tumblr.com/83365ea6f54372c68d404c290d86c6ec/b6e1347e0295285d-a8/s540x810/0bd76898b0e7c1784dc62ca6254be66602f01916.jpg",
 			"id_domicilio":"2"
-		}
-	]
+		
+	
 }
