@@ -1,17 +1,20 @@
 {
-	
-		
+
+
 			"id": "1",
 			"nombres": "Melina",
 			"apellido": "Martinez",
 			"fecha_nacimiento": "04-05-1994",
 			"nacionalidad": "Argentina",
 			"mail": "melmrtinzl@gmail.com",
-			"acerca-de": "Desde el 2020 me desempeño como artista freelance,desarrollando proyectos creativos con una variedad de clientes, ademas de mi formación en artes, siempre estuve interesada en la programación y las redes, realicé cursos de community manager ymarketing digital y completé la primera etapa de argentina programa.",
+			"acercade": "Desde el 2020 me desempeño como artista freelance,desarrollando proyectos creativos con una variedad de clientes, ademas de mi formación en artes, siempre estuve interesada en la programación y las redes, realicé cursos de community manager ymarketing digital y completé la primera etapa de argentina programa.",
 			"ocupacion": "Full stack jr.",
+      "titulo1": "Licenciada en Pintura 2019 | Universidad Nacional de Córdoba.",
+      "titulo2": "Profesora en Artes VisualesEn curso / 2017 - Presente | Universidad Nacional de  Córdoba." ,
+
 			"image_background_header": "https://assets.muralswallpaper.com/product-banner/VA0001NE30W.jpg",
 			"image_perfil": "https://64.media.tumblr.com/83365ea6f54372c68d404c290d86c6ec/b6e1347e0295285d-a8/s540x810/0bd76898b0e7c1784dc62ca6254be66602f01916.jpg",
 			"id_domicilio":"2"
-		
-	
+
+
 }
