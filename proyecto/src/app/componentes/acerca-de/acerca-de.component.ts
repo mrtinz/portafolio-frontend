@@ -17,5 +17,10 @@ export class AcercaDeComponent implements OnInit {
    this.datosPorfolio.obtenerDatos().subscribe(data => {console.log(data);
     this.miPorfolio=data;
   });
+
   }
+
+
+
+
 }
