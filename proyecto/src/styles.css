@@ -249,11 +249,11 @@ margin-left: 23%;
       font-variant: small-caps;
       padding: 10px;
       color: #000000;
-      background-color:  #dff0dd;
+      background-color: #d9eed2;
       width: 400px;
       padding: 10px;
       outline-style: dotted;
-      outline-color: #a18a83;
+      outline-color: #bdbde6;
       }
 
 
@@ -430,22 +430,72 @@ margin-right: 3%;
         margin-top: -6%;
                 font-family: "Lucida Console", "Courier New", monospace;
                 font-weight: bold;
-                background-color: #ceffb7;
+                background-color: #ffffff;
                 font-size: 12px;
                 opacity: 0.8;
                 color: rgb(77, 90, 71);
-             border: solid #b9e9aa;
+                border: solid #b9e9aa;
                 border-radius:5px;
                 padding:5px;
                 min-height:30px;
-                min-width: 70px;
+                min-width: 30px;
               }
 
 
 
+              #boton2 {
+
+                float: left;
+                margin-left: 53%;
+                margin-top: -6%;
+                        font-family: "Lucida Console", "Courier New", monospace;
+                        font-weight: bold;
+                        background-color: #ffffff;
+                        font-size: 12px;
+                        opacity: 0.8;
+                        color: rgb(77, 90, 71);
+                     border: solid #b9e9aa;
+                        border-radius:5px;
+                        padding:5px;
+                        min-height:30px;
+                        min-width: 30px;
+                      }
 
 
+                      #boton3 {
 
+                        float: left;
+                        margin-left: 53%;
+                        margin-top: -6%;
+                                font-family: "Lucida Console", "Courier New", monospace;
+                                font-weight: bold;
+                                background-color: #ffffff;
+                                font-size: 12px;
+                                opacity: 0.8;
+                                color: rgb(77, 90, 71);
+                             border: solid #b9e9aa;
+                                border-radius:5px;
+                                padding:5px;
+                                min-height:30px;
+                                min-width: 30px;
+                              }
+
+                              #botoninfo {
+
+                                
+
+                                        font-family: "Lucida Console", "Courier New", monospace;
+                                        font-weight: bold;
+                                        background-color: #ffffff;
+                                        font-size: 12px;
+                                        opacity: 0.8;
+                                        color: rgb(77, 90, 71);
+                                     border: solid #b9e9aa;
+                                        border-radius:5px;
+                                        padding:5px;
+                                        min-height:30px;
+                                        min-width: 30px;
+                                      }
 
 
 

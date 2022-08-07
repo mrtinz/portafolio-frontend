@@ -5,7 +5,7 @@ import { PortafolioComponent } from './componentes/portafolio/portafolio.compone
 
 const routes: Routes = [
   {path:'portafolio', component:PortafolioComponent},
-  {path:'iniciarsesion',component:IniciarSesionComponent},
+  {path:'iniciar-sesion',component:IniciarSesionComponent},
   {path:'',redirectTo: 'portafolio',pathMatch:'full'}
 ];
 

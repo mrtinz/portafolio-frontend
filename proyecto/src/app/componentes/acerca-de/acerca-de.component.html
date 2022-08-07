@@ -5,10 +5,9 @@
 <h3>Acerca de:</h3>
 <div class="info">
 <div id="Acercade" >
-  <p>  {{miPorfolio.acercade}}
-</p>
+  <p id="myP3">  {{miPorfolio.acercade}}</p>
  </div>
-
+ <button id="boton3" onclick="myFunction3(this);" aria-label="edit"><i class="fas fa-pen"></i></button>
 
 
 
@@ -18,14 +17,16 @@
 Educación:
 </h3>
 <div class="info2">
-  <div id="Titulos"><span >
+  <div id="Titulos">
     <p id="myP" contenteditable="false">{{miPorfolio.titulo1}}
-    </p></span>
-  <button id="boton1" onclick="myFunction(this);">Editar</button>
+    </p>
+  <button id="boton1" onclick="myFunction(this);"><i class="fas fa-pen"
+    aria-label="edit"></i></button>
 
-  <span contenteditable="false">
-  <p> {{miPorfolio.titulo2}} </p></span></div></div>
 
+  <p id="myP2" contenteditable="false"> {{miPorfolio.titulo2}} </p>
+</div></div>
+ <button id="boton2" onclick="myFunction2(this);" aria-label="edit"><i class="fas fa-pen"></i></button>
 
 
 
@@ -33,22 +34,12 @@ Educación:
 
 
   <h3>Experiencia:</h3>
-  <div id="Experiencia"><span contenteditable="true">
-   <p> 2015 Tallerista Artística en "El galpón", Proyecto
-        de extensión Vaivén.
-
-          Coordinación de grupos de trabajo.
-          Planificación y ejecución de actividades
-        educativas.</p></span><span contenteditable="true">
-    <p>  2018 Mediadora Artística y Guia en Feria de
-      arteCBA, Museo Emilio Caraffa y Museo de
-      Bellas Artes "Evita".
-      Selección y organización de información según la
-  meta específica de la mediación.
-   Planificación y ejecución de un proyecto de
-      comunicación.</p></span></div>
+  <div id="Experiencia">
+   <p>{{miPorfolio.experiencia1}} </p>
+    <p>{{miPorfolio.experiencia2}} </p></div>
 
 
+  
 
 
 
