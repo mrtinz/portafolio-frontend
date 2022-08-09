@@ -92,15 +92,17 @@ localStorage.Apellido =Apellido;
 
 //write a confirmation to the user
 document.getElementById("update").innerHTML="Guardado!";
-
 }
-
-
-
-
 </script>
 
 
+<script>
+window.onload = function load(){
+document.getElementById("rol").innerHTML = localStorage.getItem("Rol");
+
+console.log('retrieved!' + localStorage.Rol)
+}
+</script>
 
 
 
