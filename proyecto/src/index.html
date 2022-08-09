@@ -99,8 +99,10 @@ document.getElementById("update").innerHTML="Guardado!";
 <script>
 window.onload = function load(){
 document.getElementById("rol").innerHTML = localStorage.getItem("Rol");
+document.getElementById("Nombre").innerHTML = localStorage.getItem("Nombre");
+document.getElementById("Apellido").innerHTML = localStorage.getItem("Apellido");
 
-console.log('retrieved!' + localStorage.Rol)
+console.log('Se ven los cambios' );
 }
 </script>
 
