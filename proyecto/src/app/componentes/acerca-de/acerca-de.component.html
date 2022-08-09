@@ -5,7 +5,7 @@
 <h3>Acerca de:</h3>
 <div class="info">
 <div id="Acercade" >
-  <p id="myP3"contenteditable="false" onkeyup='saveValue(this);'>  {{miPorfolio.acercade}}</p>
+  <p id="myP3" contenteditable="false">  {{miPorfolio?.info}} </p>
  </div>
  <button id="boton3" onclick="myFunction3(this);" aria-label="edit"><i class="fas fa-pen"></i></button>
 
@@ -18,14 +18,14 @@ Educación:
 </h3>
 <div class="info2">
   <div id="Titulos">
-    <p id="myP" contenteditable="false">{{miPorfolio.titulo1}}
+    <p id="myP" contenteditable="false">{{miPorfolio?.titulo1}}
     </p>
   <button id="boton1" onclick="myFunction(this);" aria-label="edit"><i class="fas fa-pen"
     ></i></button>
 
 
-  <p id="myP2" contenteditable="false"> {{miPorfolio.titulo2}}</p>
- 
+  <p id="myP2" contenteditable="false"> {{miPorfolio?.titulo2}}</p>
+
 </div></div>
  <button id="boton2" onclick="myFunction2(this);" aria-label="edit"><i class="fas fa-pen"></i></button>
 
@@ -36,8 +36,8 @@ Educación:
 
   <h3>Experiencia:</h3>
   <div id="Experiencia">
-   <p>{{miPorfolio.experiencia1}} </p>
-    <p>{{miPorfolio.experiencia2}} </p></div>
+   <p>{{miPorfolio?.experiencia1}} </p>
+    <p>{{miPorfolio?.experiencia2}} </p></div>
 
 
 

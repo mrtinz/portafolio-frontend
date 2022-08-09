@@ -37,12 +37,16 @@
 </div>
 
 
-<div id="quesoy"><span id="editableinfo" contenteditable="false"><u>{{miPorfolio.ocupacion}}</u>
+<div id="quesoy"><span id="editableinfo" contenteditable="false"><span id="rol"><u>{{miPorfolio?.rol}}</u></span>
 <div id="Nombre">
-{{miPorfolio.nombres}}
+{{miPorfolio?.nombres}}
 </div>
 <div id="Apellido">
-  {{miPorfolio.apellido}}</div></span><button id="botoninfo" onclick="myFunction4(this);" aria-label="edit"><i class="fas fa-pen"></i></button>
+  {{miPorfolio?.apellido}}</div></span>
 
-</div>
+
+<button id="botoninfo" onclick="myFunction4(this);" aria-label="edit"><i class="fas fa-pen"></i> </button>
+  <input type="button" value="save my edits" onclick="saveEdits()"/>
+  <div id="update"></div></div>
+
 
