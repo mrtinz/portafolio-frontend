@@ -80,15 +80,18 @@ function saveEdits() {
 var editElem = document.getElementById("rol");
 var editElem2 = document.getElementById("Nombre");
 var editElem3 = document.getElementById("Apellido");
+var editElem4 = document.getElementById("myP3")
 //get the edited element content
 var Rol = editElem.innerHTML;
 var Nombre = editElem2.innerHTML;
 var Apellido = editElem3.innerHTML;
+var Acercade = editElem4.innerHTML;
 
 //save the content to local storage
 localStorage.Rol = Rol;
 localStorage.Nombre = Nombre;
 localStorage.Apellido =Apellido;
+localStorage.Acercade = Acercade;
 
 //write a confirmation to the user
 document.getElementById("update").innerHTML="Guardado!";
@@ -96,16 +99,19 @@ document.getElementById("update").innerHTML="Guardado!";
 </script>
 
 
+
 <script>
-window.onload = function load(){
-document.getElementById("rol").innerHTML = localStorage.getItem("Rol");
-document.getElementById("Nombre").innerHTML = localStorage.getItem("Nombre");
-document.getElementById("Apellido").innerHTML = localStorage.getItem("Apellido");
+  window.onload = function load(){
+  document.getElementById("rol").innerHTML = localStorage.getItem("Rol");
+  document.getElementById("Nombre").innerHTML = localStorage.getItem("Nombre");
+  document.getElementById("Apellido").innerHTML = localStorage.getItem("Apellido");
+  document.getElementById("myP3").innerHTML = localStorage.getItem("Acercade");
 
-console.log('Se ven los cambios' );
-}
-</script>
 
+
+  console.log('Se ven los cambios' );
+  }
+  </script>
 
 
 

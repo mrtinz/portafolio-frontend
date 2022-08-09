@@ -514,7 +514,8 @@ position:absolute;
                                         font-family: "Lucida Console", "Courier New", monospace;
                                         font-weight: bold;
                                         background-color: #ffffff;
-                                        font-size: 12px;
+                                        font-size: 13px;
+
                                         opacity: 0.8;
                                         color: rgb(77, 90, 71);
                                      border: solid #b9e9aa;
@@ -524,7 +525,19 @@ position:absolute;
                                         min-width: 30px;
                                       }
 
+#saveboton {
+  background-color: #ffffff;
+  margin: 2px;
 
+                                        opacity: 0.8;
+                                        color: rgb(77, 90, 71);
+                                     border: solid #b9e9aa;
+                                        border-radius:5px;
+                                        padding:5px;
+                                        min-height:30px;
+                                        min-width: 30px;
+                                        font-size:12px;
+}
 
 
 
