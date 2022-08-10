@@ -102,12 +102,20 @@ document.getElementById("update").innerHTML="Guardado!";
 
 <script>
   window.onload = function load(){
+
+
+  if (localStorage.length == 0) {
+    
+
+  } else
+
+  {
   document.getElementById("rol").innerHTML = localStorage.getItem("Rol");
   document.getElementById("Nombre").innerHTML = localStorage.getItem("Nombre");
   document.getElementById("Apellido").innerHTML = localStorage.getItem("Apellido");
   document.getElementById("myP3").innerHTML = localStorage.getItem("Acercade");
 
-
+}
 
   console.log('Se ven los cambios' );
   }
