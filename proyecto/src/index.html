@@ -47,6 +47,7 @@
     }
   }
   </script>
+ 
 
 <script>
   function myFunction4(button) {
@@ -59,7 +60,30 @@
       button.innerHTML = '<i class="fa fa-check"></i>';
     }
   }</script>
-
+ <script>
+  function myFunction5(button) {
+ const x = document.getElementById("exp1");
+ if (x.contentEditable == "true") {
+   x.contentEditable = "false";
+   button.innerHTML = '<i class="fas fa-pen"></i>';
+ } else {
+   x.contentEditable = "true";
+   button.innerHTML = '<i class="fa fa-check" ></i>';
+ }
+}
+</script>
+<script>
+  function myFunction6(button) {
+ const x = document.getElementById("exp2");
+ if (x.contentEditable == "true") {
+   x.contentEditable = "false";
+   button.innerHTML = '<i class="fas fa-pen"></i>';
+ } else {
+   x.contentEditable = "true";
+   button.innerHTML = '<i class="fa fa-check" ></i>';
+ }
+}
+</script>
 <script>
 function displayButtons() {
   var x = document.getElementById("Nombre");
@@ -80,18 +104,33 @@ function saveEdits() {
 var editElem = document.getElementById("rol");
 var editElem2 = document.getElementById("Nombre");
 var editElem3 = document.getElementById("Apellido");
-var editElem4 = document.getElementById("myP3")
+var editElem4 = document.getElementById("myP3");
+var editElem5 = document.getElementById("myP");
+var editElem6 = document.getElementById("myP2");
+var editElem7 = document.getElementById("exp1");
+var editElem8 = document.getElementById("exp2");
+var editElem9 = document.getElementById("text");
 //get the edited element content
 var Rol = editElem.innerHTML;
 var Nombre = editElem2.innerHTML;
 var Apellido = editElem3.innerHTML;
 var Acercade = editElem4.innerHTML;
+var Titulo1 = editElem5.innerHTML;
+var Titulo2 = editElem6.innerHTML;
+var Experiencia1 = editElem6.innerHTML;
+var Experiencia2= editElem7.innerHTML;
+var NuevaExperiencia = editElem9.innerHTML;
 
 //save the content to local storage
 localStorage.Rol = Rol;
 localStorage.Nombre = Nombre;
 localStorage.Apellido =Apellido;
 localStorage.Acercade = Acercade;
+localStorage.Titulo1 = Titulo1;
+localStorage.Titulo2 = Titulo2;
+localStorage.Experiencia1 = Experiencia1;
+localStorage.Experiencia2 = Experiencia2;
+localStorage.NuevaExperiencia = NuevaExperiencia;
 
 //write a confirmation to the user
 document.getElementById("update").innerHTML="Guardado!";
@@ -114,6 +153,11 @@ document.getElementById("update").innerHTML="Guardado!";
   document.getElementById("Nombre").innerHTML = localStorage.getItem("Nombre");
   document.getElementById("Apellido").innerHTML = localStorage.getItem("Apellido");
   document.getElementById("myP3").innerHTML = localStorage.getItem("Acercade");
+  document.getElementById("myP").innerHTML = localStorage.getItem("Titulo1");
+  document.getElementById("myP2").innerHTML = localStorage.getItem("Titulo2");
+  document.getElementById("exp1").innerHTML = localStorage.getItem("Experiencia1");
+  document.getElementById("exp2").innerHTML = localStorage.getItem("Experiencia2");
+  document.getElementById("text").innerHTML = localStorage.getItem("NuevaExperiencia");
 
 }
 
@@ -122,11 +166,24 @@ document.getElementById("update").innerHTML="Guardado!";
   </script>
 
 <script>
-var html = "<div id='infoAgregada'><p contenteditable = true></div>"
- + "<button id='addedboton' onclick=myFunction5()>edit</button>";
+var html = "<div id='infoAgregada'><p id='pagregado' contenteditable = true></div>";
 function addWord() {
   document.getElementById("text").innerHTML = document.getElementById("text").innerHTML + html;
 }</script>
+
+<script>
+  
+
+function removeWord() {
+  document.getElementById("infoAgregada").remove();
+  document.getElementById("addedbutton")
+}
+
+
+</script>
+
+
+
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 

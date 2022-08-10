@@ -42,10 +42,18 @@
 
 
   <div id="Experiencia">
-   <p>{{miPorfolio?.experiencia1}} </p>
-    <p>{{miPorfolio?.experiencia2}} </p></div>
-   
-    <button onclick="addWord()">Word</button>
+   <p id="exp1" contenteditable="false">{{miPorfolio?.experiencia1}} </p>
+   <button id="boton4" onclick="myFunction5(this);" aria-label="edit"><i class="fas fa-pen"></i></button>
+
+
+
+
+    <p id="exp2" contenteditable="false">{{miPorfolio?.experiencia2}} </p>
+
+
+    <button id="boton5" onclick="myFunction6(this);" aria-label="edit"><i class="fas fa-pen"></i></button></div>
+    <button id="botonNew" onclick="addWord()" aria-label="edit"><i class="fa fa-plus" ></i></button>
+    <button id="botonDelete" onclick="removeWord()" aria-label="edit"><i class="fa fa-times"></i></button>
     <!-- Every time this is clicked, add 'word' to the div 'text' without refreshing -->
     
     <div id="text" class="text">
