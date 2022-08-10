@@ -105,7 +105,7 @@ document.getElementById("update").innerHTML="Guardado!";
 
 
   if (localStorage.length == 0) {
-    
+
 
   } else
 
@@ -121,7 +121,12 @@ document.getElementById("update").innerHTML="Guardado!";
   }
   </script>
 
-
+<script>
+var html = "<div id='infoAgregada'><p contenteditable = true></div>"
+ + "<button id='addedboton' onclick=myFunction5()>edit</button>";
+function addWord() {
+  document.getElementById("text").innerHTML = document.getElementById("text").innerHTML + html;
+}</script>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 
